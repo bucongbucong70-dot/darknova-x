@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DARKNOVA-X | Gaming Hub</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #080611;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  padding: 22px 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #100b20;
+  border-bottom: 1px solid #8b35ff;
+}
+
+.logo {
+  color: #b76aff;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 18px;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: radial-gradient(circle, #35105e, #080611 70%);
+}
+
+.hero h1 {
+  font-size: 45px;
+  color: #c084fc;
+  text-shadow: 0 0 20px #9b35ff;
+}
+
+.hero p {
+  margin: 20px 0;
+  color: #d2c4e8;
+}
+
+.btn {
+  display: inline-block;
+  padding: 13px 25px;
+  background: #922cff;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+section {
+  padding: 55px 8%;
+  text-align: center;
+}
+
+h2 {
+  color: #bd7aff;
+  margin-bottom: 25px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  padding: 30px 20px;
+  background: #171027;
+  border: 1px solid #7131b5;
+  border-radius: 14px;
+}
+
+.card h3 {
+  color: #c084fc;
+  margin-bottom: 12px;
+}
+
+.card p {
+  color: #c9bfd8;
+  line-height: 1.6;
+}
+
+footer {
+  padding: 25px;
+  text-align: center;
+  background: #100b20;
+  color: #aaa;
+  border-top: 1px solid #7131b5;
+}
+
+@media(max-width:600px) {
+  header {
+    flex-direction: column;
+    gap: 18px;
+  }
+  nav a {
+    margin: 0 7px;
+    font-size: 13px;
+  }
+  .hero h1 {
+    font-size: 34px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">DARKNOVA-X</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#games">Games</a>
+    <a href="#about">About</a>
+  </nav>
+</header>
+
+<div class="hero" id="home">
+  <h1>ENTER THE DARK ZONE</h1>
+  <p>Explore Games. Discover Skills. Rule Your World.</p>
+  <a href="#games" class="btn">EXPLORE NOW</a>
+</div>
+
+<section id="games">
+  <h2>OUR GAMING ZONE</h2>
+  <div class="cards">
+
+    <div class="card">
+      <h3>🔥 Battle Arena</h3>
+      <p>Enter the ultimate gaming world.</p>
+    </div>
+
+    <div class="card">
+      <h3>⚡ Pro Gaming</h3>
+      <p>Discover gaming tips and strategies.</p>
+    </div>
+
+    <div class="card">
+      <h3>🎮 Gaming News</h3>
+      <p>Explore gaming updates and highlights.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="about">
+  <h2>ABOUT DARKNOVA-X</h2>
+  <p>Welcome to DARKNOVA-X, your ultimate gaming destination.</p>
+</section>
+
+<footer>
+  © 2026 DARKNOVA-X | All Rights Reserved
+</footer>
+
+</body>
+</html>
